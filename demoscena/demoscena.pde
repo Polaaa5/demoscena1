@@ -28,10 +28,10 @@ Snowflake[] flakes;
 
 void setup() { 
 size(1200,650); 
-elka= loadImage ("C:/Users/DNS/Desktop/demoscena/elka.png"); //загрузка картинки елки
-god= loadImage ("C:/Users/DNS/Desktop/demoscena/2018.png"); // загрузка картинки 2018
-dedmoroz= loadImage ("C:/Users/DNS/Desktop/demoscena/dedmoroz.png"); //картинка дед мороза
-file = new SoundFile (this, "C:/Users/DNS/Desktop/demoscena/mix.mp3"); //добавляем песню в программу
+elka= loadImage ("elka.png"); //загрузка картинки елки
+god= loadImage ("2018.png"); // загрузка картинки 2018
+dedmoroz= loadImage ("dedmoroz.png"); //картинка дед мороза
+file = new SoundFile (this, "mix.mp3"); //добавляем песню в программу
 file.play();//воспроизведение музыки 
 smooth(); //сглаживание
 
