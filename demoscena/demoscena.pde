@@ -1,3 +1,4 @@
+
 import processing.sound.*; 
 SoundFile file; 
 Amplitude amp;
@@ -41,9 +42,7 @@ for(int i = 0; i < 250; i++) flakes[i] = new Snowflake();
 amp = new Amplitude(this); //амлитуды
   in = new AudioIn(this, 0);
   in.start();
-  amp.input(in);
-  
-  
+  amp.input(in);  
 } 
 void draw() { 
 
